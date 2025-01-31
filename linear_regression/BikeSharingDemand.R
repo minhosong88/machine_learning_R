@@ -81,3 +81,4 @@ summary(model)
 # Your dataset likely shows recurring seasonal patterns (e.g., bike demand is higher in summer, lower in winter).
 # Since OLS treats all variables linearly, it might incorrectly assume that demand increases or decreases due to the season itself, 
 # rather than recognizing that demand is generally increasing over time.
+# It does not inherently account for cyclic (seasonal) trends or time-based growth.
